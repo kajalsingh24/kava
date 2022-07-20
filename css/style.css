@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+ /* -------------common class-------------- */
+ ul
+ {
+ list-style-type: none;
+ }
+ a
+ {
+text-decoration: none;
+ }
+ .commonpadding
+ {
+  padding: 40px 0px;
+ }
+ .headingh2{
+    font-size: 35px;                
+ }
+ .headingh3
+ {
+ font-size: 40px;                   
+ }
+ h2{
+   font-weight: bold;
+ }
+ /* ----------------------end coomonn class----------------------- */
+/* ------------------------start header--------------------------------- */
+.topdropdown img{
+ max-width: 70px;
+}
+.topdropdown a:nth-child(7) 
+{
+    padding: 8px 15px;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 255);
+    /* padding-left: 3px; */
+    text-align: center;
+    transition: 1;
+    text-decoration: none;
+ }
+ .topdropdown a:nth-child(7):hover
+{
+  transform: scale(1.1);
+  z-index: 3;
+}
+ .topdropdown a:nth-child(7) :hover
+ {
+     background-color: red;
+ } 
+  .dropdown-menu a
+  {
+      color: black;
+  }             
+.topdropdown a
+{
+    /* color: black; */
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+ .navbar-light .navbar-nav .nav-link {
+
+   
+    color:black;
+    font-weight: bold;
+    padding: 9px 7px;
+} 
+ a.dropdown-item:hover
+{
+  background-color:rgb(0, 128, 255);
+  
+}
+/* -----------------------------end navbar--------------------------------- */
+/* -----------------------------start background--------------------------- */
+.bannerimage{
+  position: relative;
+}
+
+.bannerimage img
+{
+width: 100%;
+
+}
+.bannerimage .item::before
+{
+  content: '';
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: grey;
+/* background-color: rgb(0, 128, 255); */
+opacity: 0.4;
+
+
+}
+.content
+{
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.content h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.content p{
+  color: white;
+  padding: 20px 0px;
+  font-size: 19px; 
+}
+.content a{
+  padding: 9px 25px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 1px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.content a:hover, .content a:focus .content a:active
+{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 40);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.bannerimage #slider1 .owl-dots
+{
+      transform: translate(-50%,-90%);
+      top:80%;
+      left: 50%;
+      position: absolute;
+}
+
+/* -----------------------------end background------------------------------ */
+.mainpart
+{
+  position: relative;
+}
+.maincard
+{
+  left:0;
+margin-top:-80px;
+  /* transform: translate(-50%,-35%); */
+  z-index: 1;
+  position:relative;
+  transition:1;
+}
+.maincard .card{
+  margin: 20px 0px;
+}
+
+.maincard .card i{
+  font-size:40px;
+  color: rgb(0, 128, 255) ;
+  padding:25px;
+}
+.maincard .card p{
+  color:black;
+  padding:1px;
+  font-weight:700;
+}
+  .maincard .card h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 2px;
+  }
+/* ------------------------------tools-------------------------------------- */
+.mainpart
+{
+  background-color:lavender;
+}
+.improving h2
+{
+  padding: 25px;
+}
+.maintools{
+  display: flex;
+  justify-content: space-between;
+}
+.maintools i{
+  font-size: 35px;
+  color:rgb(0, 128, 255);
+}
+.subtools
+{
+  padding: 40px 0px;
+}
+.maintools
+{
+  padding: 25px 20px;
+ text-align: left;
+}
+.maintools dd
+{
+  line-height: 20px;
+  font-weight:700;
+  width:80%; 
+ 
+}
+/* --------------------aboutus------------------- */
+.aboutpart1
+{
+  position: relative;
+}
+.aboutpart1 i
+{
+  color:rgb(0, 128, 255) ;
+  padding-right: 5px;
+}
+.aboutpart1 aside
+{
+  line-height:30px;
+  font-weight: bold;
+  
+}
+.aboutpart1 h2{
+  font-weight: bold;
+  font-size: 35px;
+}
+.aboutpart1 p{
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight:700;
+}
+.aboutpart1 dd
+{
+  font-weight: 700;
+}
+.aboutpart2 .clickhere img
+{
+  width: 100%;
+}
+.aboutpart2 .clickhere
+{
+  position: relative;
+}
+.clickhere a{
+  padding: 4px 20px;
+  background-color:rgb(0, 128, 255);
+  position: absolute;
+  color:white;
+  right: 0;
+  bottom: 4px;
+  margin: 2px;
+  text-decoration: none;
+}
+/* -------------------------------startconsulatnt------------------------- */
+.order
+{
+  background-image: linear-gradient(rgba(23, 1, 147, 0.851),rgba(23,1,147,0.851)),url(../images/make1.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.order img{
+  width: 100%;
+}
+.ordertext
+{
+    top:50%;
+    left:50%;
+    text-align: center;
+   
+}
+.ordertext h3{
+  color:white;
+  font-size: 29px;
+  font-weight: bold;
+}
+.ordertext span::after
+{
+  content:"\A";
+  white-space: pre;
+}
+.ordertext aside
+{
+  color: white;
+  padding: 10px;
+}
+.ordertext a{
+  padding: 6px 26px;
+  background-color:white;
+  color:black;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: bold;
+  text-decoration:none;
+}
+.ordertext i{
+  padding: 3px;
+}
+/* ----------------------------------------start ourprising------------------------------ */
+.prisingh h2{
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+.prisingh p{
+  padding: 10px 0px;
+  font-weight: bold;
+}
+ .card
+{
+  margin: 20px 0px;
+}
+.subbasic
+{
+  text-align: center;
+}
+.subbasic .card p
+{
+  padding: 0;
+}
+.subbasic p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.subbasic h4{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.subbasic aside
+{
+  font-size:16px;
+  padding: 17px;
+}
+.subbasic sup
+{
+  color:rgb(0, 128, 255);
+  font-size:30px;
+  font-weight: bold;
+}
+.subbasic dd
+{
+  color:rgb(0, 128, 255);
+  font-size: 50px;
+}
+.subbasic sub{
+  color: black;
+  font-size: 20px;
+  
+}
+.feature 
+{
+  padding: 30px 40px;
+  background-color: lavender;
+  margin-top: 40px;
+  font-weight:bold;
+}
+ .feature p{
+  
+  padding: 5px 0px;
+  font-size: 17px;
+  font-weight:bold; 
+
+}
+.feature i{
+  color:rgb(0, 128, 255);
+  font-weight: bold;
+  padding-right: 5px;
+
+}
+ .buynow
+{
+padding: 30px;
+}
+ .buynow a{
+  padding: 8px 20px;
+  background-color:rgb(0, 128, 255);
+  color:white;
+  font-size: 18px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+
+}
+.buynow a i{
+  
+  margin-right: 20px;
+}
+
+
+/* -----------------------------------------end ourprising-------------------------------- */
+/* -------------------------------corprates------------------------------------------- */
+.corprates 
+{
+  background-image: linear-gradient(rgba(23, 26, 33, 0.8),rgba(23, 26,33, 0.8)),url(../images/corprate.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.corprates  img{
+  width: 100%;
+}
+.corprates h3
+{
+  color: white;
+  font-size:35px;
+  font-weight: bold;
+  padding: 10px;
+
+}
+.corprates  dd{
+  color:rgb(0, 128, 255);
+  padding: 7px;
+  }
+  .subpart1 img
+  {
+    width: 100%;
+  }
+  .subpart2 p
+{
+  color: white;
+  padding-bottom: 20px;
+
+}
+.subpart2 p
+{
+  color: white;
+  padding-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+.subpart2 a {
+
+  padding: 8px 20px;
+  background-color:rgb(0, 128, 255);
+  color:white;
+  font-size: 16px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* --------------------------------------------mainteam---------------- */
+
+.ourteam h2
+{
+  font-weight: bold;
+  font-size: 35px;
+}
+.ourteam aside
+{
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.mainteam
+{
+  text-align: center;
+  transition: 1;
+  padding: 0 10px;
+}
+.mainteam img{
+ 
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+.mainteam img:hover
+{
+  outline: 4px solid rgb(0, 128, 255);
+  outline-offset: -10px;
+  transform: scale(1.1);
+  z-index: 2;
+}
+.mainteam span
+
+{
+  color:rgb(0, 128, 255); 
+  /* text-align: center; */
+}
+.mainteam dd{
+  padding-top: 20px;
+  font-weight:bold;
+  font-size: 25px;
+  }
+  .mainteam p
+{
+  padding-top: 10px;
+  padding-bottom: 23px;
+  font-weight: bold;
+}
+/* --------------------------------------start testimonals"------------------------------------- */
+.testimonals
+{
+  background-color: lavender;
+}
+.testimonals h2{
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.maintestimonals
+{
+  transition: 1s;
+  background-color:whitesmoke; 
+  padding: 20px;
+}
+.maintestimonals
+{
+  margin: 20px 0px;
+}
+.maintestimonals:hover
+{
+  transform: scale(1.0.5);
+  background-clip: red;
+  box-shadow: 2px 2px 2px  rgb(0, 128, 255);
+  z-index: 2;
+}
+
+.subtestimonals
+{
+  background-color:whitesmoke;
+  padding: 20px;
+}
+.maintestimonals dd{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.maintestimonals span
+{
+  color:grey;
+
+}
+.maintestimonals p{
+  padding-top: 20px;
+  font-weight: 700;
+}
+.maintestimonals aside
+{
+   padding: 5px; 
+  color:  rgb(0, 128, 255);
+  margin-left: -9px;
+
+}
+
+/* --------------------------------------end testimonals------------------------------------------- */
+/* -------------------------------------start getintouch -------------------------------------------- */
+.getclass img
+{
+width: 100%;
+}
+.getclass 
+{
+  background-image: linear-gradient(rgba(23, 26, 33, 0.8),rgba(23, 26,33, 0.8)),url(../images/lastpart.jpeg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.getclass h3{
+  font-size: 35px;
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.getclass p{
+  color:rgb(0, 128, 255);
+  padding: 5px;
+}
+
+.getpart a i{
+  font-size:20px;
+     color: rgb(0, 128, 255);
+     padding: 13px;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     border: 2px solid rgb(0, 128, 255);
+     margin-top: 20px;
+     text-decoration: none;
+}
+.getpart address
+{
+  color: white;
+  padding-top: 15px;
+  font-weight: 700;
+ 
+}
+.getpart ::after
+{
+  content:"\A";
+  white-space: pre;
+}
+.getpart aside{
+  color: white;
+  padding-top:15px;
+  font-weight: 700;
+}
+.getpart a::after
+{
+  content:"\A";
+  white-space: pre;
+}
+.getpart a
+{
+  color: white;
+  font-weight: 700;
+}
+.getpart aside::after
+{
+  content:"\A";
+  white-space: pre;
+}
+ .getpart .dd1{
+  color: white;
+ margin-top: 20px;
+ font-weight: 700;
+} 
+
+/* -------------------------------------end getintouch---------------------------------------------- */
+
+/* -------------------------------mediaqueries1------------------------------------------------------ */
+
+@media only screen and (max-width:1024px)
+{
+  .content h1 {
+    color:white;
+    font-size: 60px;
+    font-weight: bold;
+}
+ .maincard .card h2 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+} 
+
+
+
+}
+/* ----------------------------- end mediaqueries----------------------------------------------------- */
+@media only screen and (max-width:990px)
+ {
+  .maincard .card h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+}
+.maincard
+{
+  margin-top: 0;
+  padding-top: 20px;
+}
+.maincard .card {
+  margin: 20px 20px;
+}
+.aboutpart2 .clickhere img {
+  width: 100%;
+  margin: 26px 0px;
+}
+
+}
+.corprates dd {
+    color: rgb(0, 128, 255);
+    padding: 14px 3px;
+    font-weight: bold;
+}
+.corprates h3 {
+  font-size: 32px;
+}
+
+@media only screen and (max-width:767px)
+{
+  .content h1 {
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+}
+.content p {
+  color: white;
+  padding: 0;
+  font-size: 16px;
+}
+.content a
+{
+padding: 3px 8px;
+font-size: 15px;
+}
+.maintools dd {
+  width: 82%;
+}
+.maincard .card h2 {
+    font-size: 29px;
+}
+  .ordertext h3 {
+  
+    font-size: 23px;  
+}
+.maincard .card {
+  margin: 20px 20px;
+}
+.maincard .card h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+}
+.maincard .card p {
+  padding: 9px;
+  font-size: 23px;
+}
+.maincard .card i {
+  font-size: 54px;
+}
+/* #slider2 .maintools i
+{
+  margin-left: 74px;
+} */
+#slider2
+{
+  display: none;
+}
+.improving h2 {
+  padding: 21px;
+  font-size: 30px;
+}
+
+}
+@media only screen and (min-width:541px){
+  .ourteam1{
+    display: none;
+  }
+}
+/* @media only screen and (max-width:540px){
+.ourteam1{
+  display: block!important;
+}
+} */
+@media only screen and (max-width:525px)
+{
+  .content h1 {
+   font-size: 24px;
+    
+}
+#slider2
+{
+  display: block;
+}
+.content a {
+  padding: 4px 8px;
+  font-size: 10px;
+}
+.maincard .card {
+  margin: 10px 0px;
+}
+.aboutpart2 .clickhere img {
+  width: 100%;
+  margin: 23px 0px;
+}
+
+.content p {
+  font-size: 14px;
+  padding: 0;
+}
+.maincard .card h2 {
+  font-size: 25px; 
+}
+}
+/* .content a {
+  padding: 5px 4px;  
+  font-size: 12px;
+} */
+.subtools {
+    padding: 1px 0px;
+}
+.aboutpart2 .clickhere img {
+  width: 100%;
+  margin: 13px 0px;
+}
+.subpart2 {  
+ margin: 20px 0px;
+}
+.ourteam aside {
+  font-size: 16px;
+}
+.getclass p {
+  
+  padding: 5px 3px;
+}
+  /* ----------------------------------mobile-------------------- */
+  @media only screen and (max-width:480px)
+  {
+    .content h1 {
+      font-size: 16px;
+  }
+  #slider2
+  {
+    display: block;
+  }
+  .content p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+  .content a {
+    padding: 5px 4px;
+    font-size: 7px; 
+}
+.bannerimage #slider1 .owl-dots 
+{
+  transform: translate(-50%,-90%);
+  top: 90%;
+  left: 50%;
+}
+.maincard .card {
+  margin: 5px 10px;
+}
+.maincard .card h2 {
+  font-size: 21px;
+}
+.maincard .card p {
+  padding: 9px;
+  font-size: 16px;
+}
+.ordertext h3 {
+  font-size: 17px;
+}
+.ordertext aside {
+  padding: 12px;
+}
+.prisingh p {
+   
+    font-size: 12px;
+}
+.corprates h3 {
+  font-size: 16px;
+}
+.corprates dd {
+  font-size: 10px;
+  }
+  .getclass h3 {
+    font-size: 28px;
+}
+.getclass p {
+  padding: 5px 3px;
+  font-size: 10px;
+}
+  }
+
